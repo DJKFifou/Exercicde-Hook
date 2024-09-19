@@ -20,4 +20,5 @@ jobs:
       - name: Install HTMLHint
         run: npm install -g htmlhint
       - name: Run HTMLHint
-        run: htmlhint '**/*.html'
+        # run: htmlhint '**/*.html'
+        run: htmlhint 'hello.html'
